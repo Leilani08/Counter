@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: aliceblue;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; 
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+}
+
+button {
+    outline: 1px solid black;
+    border-radius: 5px;
+    height: 35px;
+    margin: 8px;
+    padding: 6px 12px;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+}
+
+p {
+    font-size: 6rem;
+}
